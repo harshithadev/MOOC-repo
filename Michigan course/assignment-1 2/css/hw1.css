@@ -1,0 +1,114 @@
+body{
+    margin:8px;
+    padding:1px;
+}
+header{
+    min-height: 145px;
+    max-height: 245px;
+    padding:10px;
+    background-color: rgba(169, 169, 169, 0.74);
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    padding:4px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.904);
+    text-transform: capitalize;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+nav{
+    margin:0 auto;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:  rgba(169, 169, 169, 0.473);
+    padding:20px 40px;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.911);
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+nav a.active{
+    background-color: rgba(255, 255, 255, 0.836);
+}
+aside{
+    display: block;
+    float:left;
+    width:20%;
+    height:100%;
+    margin-bottom: 0;
+    position: absolute;
+    background-color: rgb(93, 160, 62);
+}
+img{  
+    width:70%;
+    display: block;
+    border:solid 2px black;
+    margin:50px auto;
+
+}
+section{
+    padding:4px;
+    margin-right: 10px;
+    float:right;
+    width:75%;
+    
+}
+table{
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    margin-left:50px;
+    margin: 0, auto;
+    line-height: 18px;
+}
+table tr{
+    opacity:.7;
+}
+table td{
+    background-color: rgba(93, 160, 62,.3);
+    padding:11px;
+    text-align: center;
+    font-style: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table th{
+    background: linear-gradient(#1da74b, #9ab490);
+    -webkit-background: linear-gradient(#1da74b, #9ab490);
+    -moz-background: linear-gradient(#1da74b, #9ab490);
+    -ms-background: linear-gradient(#1da74b, #9ab490);
+    -o-background: linear-gradient(#1da74b, #9ab490);
+    padding:11px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(161, 209, 65);
+    border-top-left-radius: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -moz-border-top-left-radius: 12px;
+    -ms-border-top-left-radius: 12px;
+    -o-border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-top-right-radius: 12px;
+    -ms-border-top-right-radius: 12px;
+    -o-border-top-right-radius: 12px;
+
+    
+}
+table tr:hover{
+    opacity:1;
+}
+td:nth-child(3n+1),th:nth-child(3n+1) {  
+    text-align:left ;
+  }
